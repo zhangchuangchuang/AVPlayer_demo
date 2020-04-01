@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F464775F2434975B00F417F1 /* popView.m in Sources */ = {isa = PBXBuildFile; fileRef = F464775E2434975B00F417F1 /* popView.m */; };
 		F48DCD47243438C900E02AFB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F48DCD46243438C900E02AFB /* AppDelegate.m */; };
 		F48DCD4A243438C900E02AFB /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F48DCD49243438C900E02AFB /* SceneDelegate.m */; };
 		F48DCD4D243438C900E02AFB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F48DCD4C243438C900E02AFB /* ViewController.m */; };
@@ -15,9 +16,12 @@
 		F48DCD55243438CB00E02AFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F48DCD54243438CB00E02AFB /* Assets.xcassets */; };
 		F48DCD58243438CB00E02AFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F48DCD56243438CB00E02AFB /* LaunchScreen.storyboard */; };
 		F48DCD5B243438CB00E02AFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F48DCD5A243438CB00E02AFB /* main.m */; };
+		F48DCD6324346EA600E02AFB /* playerView.m in Sources */ = {isa = PBXBuildFile; fileRef = F48DCD6224346EA600E02AFB /* playerView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F464775D2434975B00F417F1 /* popView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = popView.h; sourceTree = "<group>"; };
+		F464775E2434975B00F417F1 /* popView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = popView.m; sourceTree = "<group>"; };
 		F48DCD42243438C900E02AFB /* play_demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = play_demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F48DCD45243438C900E02AFB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F48DCD46243438C900E02AFB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -31,6 +35,8 @@
 		F48DCD57243438CB00E02AFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F48DCD59243438CB00E02AFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F48DCD5A243438CB00E02AFB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F48DCD6124346EA600E02AFB /* playerView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = playerView.h; sourceTree = "<group>"; };
+		F48DCD6224346EA600E02AFB /* playerView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = playerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +75,10 @@
 				F48DCD49243438C900E02AFB /* SceneDelegate.m */,
 				F48DCD4B243438C900E02AFB /* ViewController.h */,
 				F48DCD4C243438C900E02AFB /* ViewController.m */,
+				F464775D2434975B00F417F1 /* popView.h */,
+				F464775E2434975B00F417F1 /* popView.m */,
+				F48DCD6124346EA600E02AFB /* playerView.h */,
+				F48DCD6224346EA600E02AFB /* playerView.m */,
 				F48DCD4E243438C900E02AFB /* Main.storyboard */,
 				F48DCD54243438CB00E02AFB /* Assets.xcassets */,
 				F48DCD56243438CB00E02AFB /* LaunchScreen.storyboard */,
@@ -150,8 +160,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F48DCD5B243438CB00E02AFB /* main.m in Sources */,
+				F48DCD6324346EA600E02AFB /* playerView.m in Sources */,
 				F48DCD53243438C900E02AFB /* play_demo.xcdatamodeld in Sources */,
 				F48DCD4D243438C900E02AFB /* ViewController.m in Sources */,
+				F464775F2434975B00F417F1 /* popView.m in Sources */,
 				F48DCD47243438C900E02AFB /* AppDelegate.m in Sources */,
 				F48DCD4A243438C900E02AFB /* SceneDelegate.m in Sources */,
 			);
